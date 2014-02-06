@@ -47,10 +47,26 @@
       },
       "test" : {
          "requires" : {
+            "Acme::Hakomonos" : "0",
+            "Acme::Hakomonos::Register" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/dokechin/Acme-Hakomonos-JP/issues"
+      },
+      "homepage" : "https://github.com/dokechin/Acme-Hakomonos-JP",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/dokechin/Acme-Hakomonos-JP.git",
+         "web" : "https://github.com/dokechin/Acme-Hakomonos-JP"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "dokechin <user@user-PC.(none)>"
+   ]
 }

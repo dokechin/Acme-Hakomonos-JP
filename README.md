@@ -8,7 +8,8 @@ Acme::Hakomonos::JP - It's new $module
 
 # DESCRIPTION
 
-Acme::Hakomonos::JP is ...
+Acme::Hakomonos::JP is Japanese Public Buildings (Hakomonos) hash. ID/name,cost and floor size.
+Cost scale is hundred billion yen, and floor size scale is square meter.
 
 # LICENSE
 
