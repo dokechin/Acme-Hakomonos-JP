@@ -2,7 +2,10 @@ Revision history for Perl extension Acme-Hakomonos-JP
 
 {{$NEXT}}
 
+0.02 2014-02-07T12:16:45Z
+
+    - add url information
+
 0.01 2014-02-06T11:15:00Z
 
     - original version
-

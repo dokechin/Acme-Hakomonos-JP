@@ -4,12 +4,12 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 use Acme::Hakomonos::Register (
-    BUREAU      =>  {name => "静岡県東部地域コンベンションビューロー", cost => 114, size => 22742},
-    GRANSHIP    =>  {name => "グランシップ", cost =>  706, size => 60360},
-    ROSETHEATER =>  {name => "富士市文化会館ロゼシアター ", cost => 162, size => 22794},
+    BUREAU      =>  {name => "静岡県東部地域コンベンションビューロー", cost => 114, size => 22742, url =>"http://www.shizutou-cb.jp/"},
+    GRANSHIP    =>  {name => "グランシップ", cost => 706, size => 60360 , url => "http://www.granship.or.jp/"},
+    ROSETHEATER =>  {name => "富士市文化会館ロゼシアター ", cost => 162, size => 22794, url =>"http://rose-theatre.jp/"},
 );
 
 
