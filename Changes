@@ -2,6 +2,10 @@ Revision history for Perl extension Acme-Hakomonos-JP
 
 {{$NEXT}}
 
+0.04 2014-04-04T15:20:09Z
+
+    - add OCC
+
 0.03 2014-04-02T14:00:58Z
 
     - add SORA_SCC
