@@ -4,15 +4,16 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = "0.07";
+our $VERSION = "0.08";
 
 use Acme::Hakomonos::Register (
     SHIRETOKO   =>  {name => "知床世界遺産センター", cost =>4.6, size=> 756, url => "http://shiretoko-whc.jp/whc/"},
     SORA_SCC    =>  {name => "札幌コンベンションセンター", cost => 206, size => 20300, url =>"http://www.sora-scc.jp/"},
     YUMEMESSE   =>  {name => "夢メッセみやぎ", cost => undef, size => 18792, url =>"http://www.yumemesse.or.jp/"},
     BUREAU      =>  {name => "静岡県東部地域コンベンションビューロー", cost => 114, size => 22742, url =>"http://www.shizutou-cb.jp/"},
-    GRANSHIP    =>  {name => "グランシップ", cost => 706, size => 60360 , url => "http://www.granship.or.jp/"},
     ROSETHEATER =>  {name => "富士市文化会館ロゼシアター", cost => 162, size => 22794, url =>"http://rose-theatre.jp/"},
+    TWINMESSE   =>  {name => "ツインメッセ静岡", cost => undef, size => 45431 , url => "http://www.t-messe.or.jp/"},
+    GRANSHIP    =>  {name => "グランシップ", cost => 706, size => 60360 , url => "http://www.granship.or.jp/"},
     YISO_MESSE  =>  {name => "アイメッセ山梨", cost => undef, size => 9945, url =>"http://www.yiso.or.jp/messe/information.html"},
     SUNDOME     =>  {name => "サンドーム福井", cost => 221, size => 27917, url =>"http://www.sankan.jp/sundome/"},
     TENJIKAN    =>  {name => "石川県産業展示館", cost => undef, size => 17700, url =>"http://www.pref.ishikawa.lg.jp/tenjikan/"},
