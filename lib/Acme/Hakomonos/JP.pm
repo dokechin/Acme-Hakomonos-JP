@@ -4,9 +4,10 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 use Acme::Hakomonos::Register (
+    SHIRETOKO   =>  {name => "知床世界遺産センター", cost =>4.6, size=> 756, url => "http://shiretoko-whc.jp/whc/"},
     SORA_SCC    =>  {name => "札幌コンベンションセンター", cost => 206, size => 20300, url =>"http://www.sora-scc.jp/"},
     BUREAU      =>  {name => "静岡県東部地域コンベンションビューロー", cost => 114, size => 22742, url =>"http://www.shizutou-cb.jp/"},
     GRANSHIP    =>  {name => "グランシップ", cost => 706, size => 60360 , url => "http://www.granship.or.jp/"},

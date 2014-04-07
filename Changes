@@ -2,6 +2,10 @@ Revision history for Perl extension Acme-Hakomonos-JP
 
 {{$NEXT}}
 
+0.06 2014-04-07T11:19:03Z
+
+    - add SHIRETOKO
+
 0.05 2014-04-07T10:49:45Z
 
     - add SUNDOME,GRANDMESSE
