@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = "0.08";
+our $VERSION = "0.09";
 
 use Acme::Hakomonos::Register (
     SHIRETOKO   =>  {name => "知床世界遺産センター", cost =>4.6, size=> 756, url => "http://shiretoko-whc.jp/whc/"},
@@ -17,6 +17,7 @@ use Acme::Hakomonos::Register (
     YISO_MESSE  =>  {name => "アイメッセ山梨", cost => undef, size => 9945, url =>"http://www.yiso.or.jp/messe/information.html"},
     SUNDOME     =>  {name => "サンドーム福井", cost => 221, size => 27917, url =>"http://www.sankan.jp/sundome/"},
     TENJIKAN    =>  {name => "石川県産業展示館", cost => undef, size => 17700, url =>"http://www.pref.ishikawa.lg.jp/tenjikan/"},
+    MY_JOB      =>  {name => "私のしごと館", cost => 581, size => 35000, url =>""},
     BIGSHIP     =>  {name => "米子コンベンションセンター", cost => undef, size => 18595, url =>"http://bigship.sanin.jp/"},
     SUNMESSE    =>  {name => "サンメッセ香川", cost => undef, size => 11979, url =>"http://www.sunmesse.com/"},
     GRANDMESSE  =>  {name => "グランメッセ熊本", cost => 183, size => 20280, url =>"http://www.grandmesse.jp/"},
