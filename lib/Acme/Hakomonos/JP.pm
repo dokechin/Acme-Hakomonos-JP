@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use utf8;
 
-our $VERSION = "0.09";
+our $VERSION = "0.10";
 
 use Acme::Hakomonos::Register (
     SHIRETOKO   =>  {name => "知床世界遺産センター", cost =>4.6, size=> 756, url => "http://shiretoko-whc.jp/whc/"},
@@ -13,6 +13,7 @@ use Acme::Hakomonos::Register (
     BUREAU      =>  {name => "静岡県東部地域コンベンションビューロー", cost => 114, size => 22742, url =>"http://www.shizutou-cb.jp/"},
     ROSETHEATER =>  {name => "富士市文化会館ロゼシアター", cost => 162, size => 22794, url =>"http://rose-theatre.jp/"},
     TWINMESSE   =>  {name => "ツインメッセ静岡", cost => undef, size => 45431 , url => "http://www.t-messe.or.jp/"},
+    KONOHANA    =>  {name => "このはなアリーナ", cost => 60, size => 13509 , url => "http://www.pref.shizuoka.jp/kikaku/ki-110b/201504/color/index.html"},
     GRANSHIP    =>  {name => "グランシップ", cost => 706, size => 60360 , url => "http://www.granship.or.jp/"},
     YISO_MESSE  =>  {name => "アイメッセ山梨", cost => undef, size => 9945, url =>"http://www.yiso.or.jp/messe/information.html"},
     SUNDOME     =>  {name => "サンドーム福井", cost => 221, size => 27917, url =>"http://www.sankan.jp/sundome/"},
