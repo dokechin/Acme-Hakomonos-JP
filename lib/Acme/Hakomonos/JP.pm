@@ -23,6 +23,7 @@ use Acme::Hakomonos::Register (
     SUNMESSE    =>  {name => "サンメッセ香川", cost => undef, size => 11979, url =>"http://www.sunmesse.com/"},
     GRANDMESSE  =>  {name => "グランメッセ熊本", cost => 183, size => 20280, url =>"http://www.grandmesse.jp/"},
     OCC         =>  {name => "沖縄コンベンションセンター", cost => 108, size =>20928, url =>"http://www.oki-conven.jp/"},
+    JNS         =>  {name => "新国立競技場", cost => 2520, size =>210000, url =>"http://www.jpnsport.go.jp/kokuritu/"},
 );
 
 
